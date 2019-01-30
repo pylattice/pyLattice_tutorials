@@ -1,2 +1,3 @@
 src/__pycache__/
 test_data/output_gaussians.tiff
+test_data/output_gaussians.csv

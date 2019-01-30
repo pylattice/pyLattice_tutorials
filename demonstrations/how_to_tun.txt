@@ -2,18 +2,43 @@
 
 
 ##################################
-#		1
+#		0
 #
 #	install Anaconda 
 #
 ##################################
 
+# follow the instructions on 
+# https://www.anaconda.com
 
 
 ##################################
-#		2
+#		1
+#
+#	download pyLattice_tutorial
+#
+##################################
+
+# find the tutorial at https://github.com/JohSchoeneberg/pyLattice_tutorials/
+# download the zip folder or do 
+
+git clone 
+
+##################################
+#		3
+#
+#	open a terminal and cd into the folder
+#   of the tutorial that you just downloaded
+#
+##################################
+
+cd pyLattice_tutorials
+
+##################################
+#		4
 #
 #	create a new environment
+#   and activate it
 #
 ##################################
 
@@ -24,51 +49,48 @@ conda create -n pyLattice_tutorial python=3.6
 source activate pyLattice_tutorial
 
 ##################################
-#		3
+#		5
 #
 #	Install dependencies
 #
 ##################################
 
-pip install aicssegmentation
-pip install numpy
-
+pip install -r requirements.txt
 
 ##################################
-#		4
+#		6
 #
-#	Install dependencies
+#	run the jupyter notebook
 #
 ##################################
 
-
-##
-# Attention:
-# make sure that you are in the 'segmentation' environment when you run this.
-# the visualization might not run otherwise
-
-conda create -n segmentation python=3.6
-source activate segmentation
-
-pip install aicssegmentation
-pip install numpy
-# pip install -e .
-pip install itkwidgets
-
-
-
-
-
-
-#then you go to lookup table demo where the jupyter notebook is located.
-cd lookup_table_demo/
-
-
-# if you dont open your jupyter like this, visualizations might not work as it runs out of memory
+# run this command in the pyLattice_tutorial folder
 
 jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000
 
 
-# when you are don:
+
+
+##################################
+#		7
+#
+#	advanced
+#
+##################################
+
+# run the tutorial with the the following file as input data
+
+https://www.dropbox.com/s/4b58kk15o31ewp3/S3P5_488_150mw_560_300mw_Objdz150nm_ch1_CAM1_stack0000_560nm_0000000msec_0090116101msecAbs_000x_000y_003z_0000t_decon.tif?dl=0
+
+
+
+##################################
+#		8
+#
+#	when you are done
+#
+##################################
+
+# deactivate the environment
 
 source deactivate
