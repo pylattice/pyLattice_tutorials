@@ -1,4 +1,45 @@
-# how to run the aics segmentation:
+# Welcome to the pyLattice tutorial
+
+
+##################################
+#		1
+#
+#	install Anaconda 
+#
+##################################
+
+
+
+##################################
+#		2
+#
+#	create a new environment
+#
+##################################
+
+# create the environment pyLattice_tutorial
+conda create -n pyLattice_tutorial python=3.6
+
+# activate the environment
+source activate pyLattice_tutorial
+
+##################################
+#		3
+#
+#	Install dependencies
+#
+##################################
+
+pip install aicssegmentation
+pip install numpy
+
+
+##################################
+#		4
+#
+#	Install dependencies
+#
+##################################
 
 
 ##
