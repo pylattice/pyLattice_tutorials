@@ -1,6 +1,6 @@
 # pyLattice_tutorials
 
-Welcome to the pyLattice tutorials repository.
+Welcome to the [pyLattice](https://github.com/JohSchoeneberg/pyLattice) tutorials repository.
 
 Please find the tutorials in the demonstrations folder
 
