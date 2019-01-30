@@ -22,7 +22,7 @@
 # find the tutorial at https://github.com/JohSchoeneberg/pyLattice_tutorials/
 # download the zip folder or do 
 
-git clone 
+git clone https://github.com/JohSchoeneberg/pyLattice_tutorials.git
 
 ##################################
 #		3
