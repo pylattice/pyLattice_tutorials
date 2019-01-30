@@ -1,0 +1,33 @@
+# how to run the aics segmentation:
+
+
+##
+# Attention:
+# make sure that you are in the 'segmentation' environment when you run this.
+# the visualization might not run otherwise
+
+conda create -n segmentation python=3.6
+source activate segmentation
+
+pip install aicssegmentation
+pip install numpy
+# pip install -e .
+pip install itkwidgets
+
+
+
+
+
+
+#then you go to lookup table demo where the jupyter notebook is located.
+cd lookup_table_demo/
+
+
+# if you dont open your jupyter like this, visualizations might not work as it runs out of memory
+
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000
+
+
+# when you are don:
+
+source deactivate
